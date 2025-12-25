@@ -1,0 +1,15 @@
+# Database Configuration
+database:
+  # MySQL connection details
+  host: "localhost"
+  port: 3306
+  database: "your_database_name"
+  username: "your_username"
+  password: "your_password"
+
+  # Connection pool settings (HikariCP)
+  pool-size: 10
+  # Connection timeout in milliseconds (30000 = 30 seconds)
+  connection-timeout: 30000
+  # Maximum lifetime of a connection in milliseconds (1800000 = 30 minutes)
+  max-lifetime: 1800000

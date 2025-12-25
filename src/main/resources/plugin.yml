@@ -1,0 +1,13 @@
+name: LinkedDoeng
+version: '1.0-SNAPSHOT'
+main: doeng.linkedDoeng.LinkedDoeng
+api-version: '1.21'
+description: 'Plugin untuk verifikasi dan linking akun Minecraft dengan Discord'
+author: doeng
+
+commands:
+  link:
+    description: 'Link akun Minecraft dengan Discord menggunakan kode verifikasi'
+    usage: /link <kode>
+    permission: linkeddoeng.use
+    aliases: []
